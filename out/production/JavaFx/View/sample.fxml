@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="wrong_labl" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" style="-fx-background-color: #33FF82;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Controller">
+   <children>
+      <Button fx:id="login_button" layoutX="107.0" layoutY="422.0" mnemonicParsing="false" onAction="#login" prefHeight="49.0" prefWidth="171.0" text="Login" textFill="#092666">
+         <font>
+            <Font name="0 Elm Italic" size="24.0" />
+         </font></Button>
+      <PasswordField fx:id="password_field" layoutX="107.0" layoutY="255.0" promptText="password" />
+      <TextField fx:id="username_field" layoutX="107.0" layoutY="211.0" promptText="username" />
+      <Label fx:id="wrong_label" layoutX="114.0" layoutY="300.0" prefHeight="39.0" prefWidth="140.0" text="wrong password" textFill="#bc0000" visible="false">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <ImageView fitHeight="186.0" fitWidth="215.0" layoutX="93.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/Hana/IdeaProjects/JavaFx/src/Images/87390.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="password_visible" layoutX="107.0" layoutY="255.0" promptText="password" visible="false" />
+      <CheckBox layoutX="307.0" layoutY="260.0" mnemonicParsing="false" onAction="#show_pass" text="show" />
+      <Button fx:id="signup_buttom" layoutX="107.0" layoutY="518.0" mnemonicParsing="false" onAction="#signup" prefHeight="49.0" prefWidth="171.0" text="SignUp" textFill="#0c0a8a">
+         <font>
+            <Font name="0 Elm Italic" size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="136.0" layoutY="390.0" prefHeight="25.0" prefWidth="171.0" text="if you have acount" textFill="#0b1aba">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="115.0" layoutY="485.0" prefHeight="21.0" prefWidth="171.0" text="for creating account" textFill="#112b9c">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="empty_pass_user" layoutX="106.0" layoutY="286.0" prefHeight="28.0" prefWidth="232.0" text="complete user and pass" textFill="#c30e0e" visible="false">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="600.0" prefWidth="400.0" style="-fx-background-color: #33FF82;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.PerCommentDetails">
+   <children>
+      <Label layoutX="116.0" layoutY="38.0" text="comment details" textFill="#4022bf">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="43.0" layoutY="518.0" mnemonicParsing="false" onAction="#goPostDetails" text="back to post details" textFill="#3d18ba">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="237.0" layoutY="518.0" mnemonicParsing="false" onAction="#goMenu" text="back to menu" textFill="#4a17b0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="description" layoutX="44.0" layoutY="106.0" prefHeight="199.0" prefWidth="313.0" text="LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabel" wrapText="true">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label fx:id="sayer" layoutX="54.0" layoutY="392.0" prefHeight="35.0" prefWidth="147.0" text="\\@Hanna" textFill="#d20fd6">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
