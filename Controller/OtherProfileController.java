@@ -22,6 +22,7 @@ public class OtherProfileController {
     User user = User.toShowUser;
     public void initialize() throws IOException, ClassNotFoundException ,NullPointerException, InvocationTargetException {
         //aks kar nemikone baghi doroste
+        //////.......
         username.setText(Main.currentUsername);
         numFollower.setText(User.toShowUser.getFollower()+"");
         if(User.toShowUser.getN() != null)
